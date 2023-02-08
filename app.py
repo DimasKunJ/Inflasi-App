@@ -76,7 +76,6 @@ def arima():
     d = tab3.slider("Parameter d", min_value=0, max_value=2)
     q = tab3.slider("Parameter q", min_value=0, max_value=5)
 
-    col1, col2, col3, col4 = st.columns(4)
     P = tab2.slider("Parameter P", min_value=0, max_value=5)
     D = tab2.slider("Parameter D", min_value=0, max_value=2)
     Q = tab2.slider("Parameter Q", min_value=0, max_value=5)
